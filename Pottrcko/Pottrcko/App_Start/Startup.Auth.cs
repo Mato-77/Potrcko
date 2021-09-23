@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using Pottrcko.Models;
+using Potrcko.Models;
 
-namespace Pottrcko
+namespace Potrcko
 {
     public partial class Startup
     {

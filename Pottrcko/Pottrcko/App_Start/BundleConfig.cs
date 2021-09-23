@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Pottrcko
+namespace Potrcko
 {
     public class BundleConfig
     {
@@ -20,11 +20,16 @@ namespace Pottrcko
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js"));
+                      "~/Scripts/bootstrap.js",
+                      "~/Scripts/bootbox.js",
+                      "~/Scripts/DataTables/jquery.dataTables.js",
+                      "~/Scripts/DataTables/dataTables.bootstrap.js"
+                      ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/DataTables/css/dataTables.bootstrap4.css"));
         }
     }
 }

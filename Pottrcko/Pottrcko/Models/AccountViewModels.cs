@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Pottrcko.Models
+namespace Potrcko.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

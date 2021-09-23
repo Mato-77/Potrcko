@@ -10,9 +10,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using Pottrcko.Models;
+using Potrcko.Models;
 
-namespace Pottrcko
+namespace Potrcko
 {
     public class EmailService : IIdentityMessageService
     {

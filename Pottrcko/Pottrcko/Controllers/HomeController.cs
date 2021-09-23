@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Pottrcko.Controllers
+namespace Potrcko.Controllers
 {
     public class HomeController : Controller
     {

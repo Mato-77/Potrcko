@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(Pottrcko.Startup))]
-namespace Pottrcko
+[assembly: OwinStartupAttribute(typeof(Potrcko.Startup))]
+namespace Potrcko
 {
     public partial class Startup
     {
